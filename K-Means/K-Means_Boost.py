@@ -182,4 +182,4 @@ class KmeansBoost:
         self.last_fit_dists = np.zeros((X.shape[0], self.num_clusters))
         labels = self.similiarity(X, self.last_fit_dists)
         return labels      
-# EOF
+#EOF
