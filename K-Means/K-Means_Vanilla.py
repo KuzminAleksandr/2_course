@@ -52,7 +52,7 @@ class Kmeans:
         self.similiarity = dict(zip(similiarities, sim_funcs))[similiarity]
                 
     
-    def get_params(self):
+    def get_params(self) -> dict:
         return {"num_clusters": self.num_clusters, 
                 "max_iter": self.max_iter, 
                 "alpha": self.alpha,
